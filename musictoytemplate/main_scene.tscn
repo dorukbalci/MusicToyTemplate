@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://bve85ownyuiod"]
+[gd_scene load_steps=3 format=3 uid="uid://bve85ownyuiod"]
+
+[ext_resource type="PackedScene" uid="uid://dpo67iqchv824" path="res://music_object.tscn" id="1_2c62f"]
+[ext_resource type="AudioStream" uid="uid://gb0ckt734pqy" path="res://Sounds/river stream.wav" id="2_gyfs4"]
 
 [node name="MainScene" type="Node2D"]
+
+[node name="MusicObjectParent" type="Node2D" parent="."]
+
+[node name="Q" parent="MusicObjectParent" instance=ExtResource("1_2c62f")]
+audio_file = ExtResource("2_gyfs4")
+
+[node name="AudioStreamPlayer2D" parent="MusicObjectParent/Q" index="0"]
+bus = &"Phaser"
+
+[editable path="MusicObjectParent/Q"]
