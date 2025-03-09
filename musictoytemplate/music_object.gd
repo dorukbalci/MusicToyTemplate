@@ -12,6 +12,8 @@ func _ready() -> void:
 func _input(event):
 	if selected_key != "" and event.is_action_pressed(selected_key):
 		$AudioStreamPlayer2D.play()
+		$AnimatedSprite2D.play(selected_key)
 	elif selected_key != "" and event.is_action_released(selected_key):
 		$AudioStreamPlayer2D.stop()
+		$AnimatedSprite2D.pause()
 		
