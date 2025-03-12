@@ -12,6 +12,7 @@
 position = Vector2(306, 318)
 scale = Vector2(4, 4)
 audio_file = ExtResource("2_gyfs4")
+volume = 0.276
 
 [node name="AudioStreamPlayer2D" parent="MusicObjectParent/Q" index="0"]
 bus = &"Phaser"
