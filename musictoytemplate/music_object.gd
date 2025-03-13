@@ -3,7 +3,9 @@ extends Node2D
 @export var selected_key: String = "Q"  # Select which action to use
 
 @export var audio_file: Resource
-@export var animation: Animation
+
+
+@export var one_shot = false
 
 
 @export_range(0, 10) var volume: float = 1:  
@@ -30,4 +32,7 @@ func _input(event):
 	elif selected_key != "" and event.is_action_released(selected_key):
 		$AudioStreamPlayer2D.stop()
 		$AnimatedSprite2D.pause()
+		if one_shot:
+			$AnimatedSprite2D.stop()
+		
 		

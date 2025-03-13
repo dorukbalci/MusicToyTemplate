@@ -1,0 +1,172 @@
+[gd_scene load_steps=17 format=3 uid="uid://bve85ownyuiod"]
+
+[ext_resource type="PackedScene" uid="uid://dpo67iqchv824" path="res://music_object.tscn" id="1_6sqrr"]
+[ext_resource type="AudioStream" uid="uid://bjqrl3gastttb" path="res://CHLOE'S HOUSE/Sounds/scruchty 1.wav" id="2_eypr3"]
+[ext_resource type="AudioStream" uid="uid://c0q0gpicfgdfb" path="res://CHLOE'S HOUSE/Sounds/windfromconcertina.wav" id="3_6sqrr"]
+[ext_resource type="AudioStream" uid="uid://n0nueixmx0jp" path="res://CHLOE'S HOUSE/Sounds/guitar riff.wav" id="3_eypr3"]
+[ext_resource type="AudioStream" uid="uid://b61ichjtfuwe3" path="res://CHLOE'S HOUSE/Sounds/New bird whistle.wav" id="5_3snti"]
+[ext_resource type="AudioStream" uid="uid://d0jnto6tp8l5o" path="res://CHLOE'S HOUSE/Anims/Horsebrass/HorseBrassClankin.wav" id="5_c0dgi"]
+[ext_resource type="AudioStream" uid="uid://bm0w8dpekhwt3" path="res://CHLOE'S HOUSE/Sounds/Guinness crinkle 10.wav" id="7_2cmgu"]
+[ext_resource type="AudioStream" uid="uid://dsejur1ucamom" path="res://CHLOE'S HOUSE/Sounds/Boiler and whistle.wav" id="7_sio5i"]
+[ext_resource type="AudioStream" uid="uid://divrt6iti6en8" path="res://CHLOE'S HOUSE/Sounds/Foodie.wav" id="9_clej2"]
+[ext_resource type="AudioStream" uid="uid://c6isylm0v4njc" path="res://CHLOE'S HOUSE/Sounds/Lighter.wav" id="10_c72th"]
+[ext_resource type="AudioStream" uid="uid://c21mp8ktea7ey" path="res://CHLOE'S HOUSE/Sounds/twinkly.wav" id="10_wgt0s"]
+[ext_resource type="Texture2D" uid="uid://bhrxxr5fjyyjo" path="res://CHLOE'S HOUSE/background.png" id="11_rqjaj"]
+[ext_resource type="AudioStream" uid="uid://t325ldi6ao3j" path="res://CHLOE'S HOUSE/Sounds/millie.wav" id="12_o80o5"]
+[ext_resource type="AudioStream" uid="uid://c8jvoobdk4hxl" path="res://CHLOE'S HOUSE/Sounds/piss.wav" id="13_em63g"]
+[ext_resource type="Texture2D" uid="uid://mw7o7c6fac2i" path="res://CHLOE'S HOUSE/masking-tape_0000_Layer-37.png" id="14_k8t37"]
+[ext_resource type="Texture2D" uid="uid://bn6h3kmje2s5p" path="res://CHLOE'S HOUSE/masking-tape_0001_Layer-36.png" id="15_0ehk4"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="MusicObjectParent" type="Node2D" parent="."]
+
+[node name="WIND(Q)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(914, 1041)
+scale = Vector2(0.8, 0.8)
+audio_file = ExtResource("3_6sqrr")
+volume = 1.247
+
+[node name="AudioStreamPlayer2D" parent="MusicObjectParent/WIND(Q)" index="0"]
+bus = &"Master"
+
+[node name="DorukGuitar(W)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+z_index = -3
+position = Vector2(1060, 902)
+scale = Vector2(-1, 1)
+selected_key = "W"
+audio_file = ExtResource("3_eypr3")
+
+[node name="AudioStreamPlayer2D" parent="MusicObjectParent/DorukGuitar(W)" index="0"]
+bus = &"Reverb"
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/DorukGuitar(W)" index="1"]
+animation = &"W"
+
+[node name="MARI(E)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(1333, 1047)
+rotation = 0.39727
+selected_key = "E"
+audio_file = ExtResource("2_eypr3")
+one_shot = true
+
+[node name="AudioStreamPlayer2D" parent="MusicObjectParent/MARI(E)" index="0"]
+bus = &"Reverb"
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/MARI(E)" index="1"]
+position = Vector2(22.8143, -12.8259)
+animation = &"E"
+
+[node name="NIC(F)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(-405, -160)
+scale = Vector2(1.2, 1.2)
+selected_key = "F"
+audio_file = ExtResource("5_3snti")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/NIC(F)" index="1"]
+position = Vector2(647, 1037)
+animation = &"F"
+
+[node name="HorseBrass(D)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(425, 625)
+selected_key = "D"
+audio_file = ExtResource("5_c0dgi")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/HorseBrass(D)" index="1"]
+animation = &"D"
+
+[node name="BoilerWhistle(R)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(78, 1011)
+scale = Vector2(0.7, 0.7)
+selected_key = "R"
+audio_file = ExtResource("7_sio5i")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/BoilerWhistle(R)" index="1"]
+animation = &"R"
+
+[node name="GuinnessCrinkle(G)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(-470, -77)
+selected_key = "G"
+audio_file = ExtResource("7_2cmgu")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/GuinnessCrinkle(G)" index="1"]
+position = Vector2(594, 671)
+animation = &"G"
+
+[node name="Food(S)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(-876, 113)
+selected_key = "S"
+audio_file = ExtResource("9_clej2")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/Food(S)" index="1"]
+position = Vector2(1660, 503)
+animation = &"S"
+
+[node name="ChloeTwinkly(T)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(1363, 152)
+selected_key = "T"
+audio_file = ExtResource("10_wgt0s")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/ChloeTwinkly(T)" index="1"]
+position = Vector2(-22, 85)
+animation = &"T"
+
+[node name="Lighter" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(-248, 1054)
+selected_key = "X"
+audio_file = ExtResource("10_c72th")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/Lighter" index="1"]
+position = Vector2(1613, -366)
+animation = &"X"
+
+[node name="Millie" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(710, 203)
+selected_key = "Z"
+audio_file = ExtResource("12_o80o5")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/Millie" index="1"]
+position = Vector2(34, 12)
+rotation = 2.55042
+animation = &"Z"
+
+[node name="PISS" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
+position = Vector2(316, 190)
+scale = Vector2(1.2, 1.2)
+selected_key = "C"
+audio_file = ExtResource("13_em63g")
+
+[node name="AnimatedSprite2D" parent="MusicObjectParent/PISS" index="1"]
+position = Vector2(-81, -63)
+animation = &"C"
+
+[node name="Masking-tape0000Layer-37" type="Sprite2D" parent="MusicObjectParent"]
+position = Vector2(920, 423)
+rotation = -0.464638
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("14_k8t37")
+
+[node name="Masking-tape0001Layer-36" type="Sprite2D" parent="MusicObjectParent"]
+position = Vector2(664, 782)
+rotation = -1.65349
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("15_0ehk4")
+
+[node name="Background" type="Sprite2D" parent="."]
+modulate = Color(1, 0.901961, 0.980392, 1)
+z_index = -4
+position = Vector2(748, 602)
+texture = ExtResource("11_rqjaj")
+
+[editable path="MusicObjectParent/WIND(Q)"]
+[editable path="MusicObjectParent/DorukGuitar(W)"]
+[editable path="MusicObjectParent/MARI(E)"]
+[editable path="MusicObjectParent/NIC(F)"]
+[editable path="MusicObjectParent/HorseBrass(D)"]
+[editable path="MusicObjectParent/BoilerWhistle(R)"]
+[editable path="MusicObjectParent/GuinnessCrinkle(G)"]
+[editable path="MusicObjectParent/Food(S)"]
+[editable path="MusicObjectParent/ChloeTwinkly(T)"]
+[editable path="MusicObjectParent/Lighter"]
+[editable path="MusicObjectParent/Millie"]
+[editable path="MusicObjectParent/PISS"]
