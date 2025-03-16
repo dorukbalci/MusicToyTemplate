@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cm7li7eho50k0"]
+
+[ext_resource type="PackedScene" uid="uid://dpo67iqchv824" path="res://music_object.tscn" id="1_6w5ov"]
+[ext_resource type="AudioStream" uid="uid://n0nueixmx0jp" path="res://CHLOE'S HOUSE/Sounds/guitar riff.wav" id="2_n7vmb"]
+[ext_resource type="Texture2D" uid="uid://bhrxxr5fjyyjo" path="res://CHLOE'S HOUSE/background.png" id="3_n7vmb"]
+
+[node name="Birthdayjam" type="Node2D"]
+
+[node name="MusicObject" parent="." instance=ExtResource("1_6w5ov")]
+selected_key = "B"
+audio_file = ExtResource("2_n7vmb")
+
+[node name="AudioStreamPlayer2D" parent="MusicObject" index="0"]
+bus = &"Reverb"
+
+[node name="AnimatedSprite2D" parent="MusicObject" index="1"]
+position = Vector2(790, 540)
+animation = &"B"
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -3
+position = Vector2(748, 566)
+texture = ExtResource("3_n7vmb")
+
+[editable path="MusicObject"]

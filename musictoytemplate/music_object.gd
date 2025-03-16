@@ -4,9 +4,9 @@ extends Node2D
 
 @export var audio_file: Resource
 
-
 @export var one_shot = false
-
+@export var fade_in = false
+@export var fade_out = false
 
 @export_range(0, 10) var volume: float = 1:  
 	set = set_volume  # Updates the volume when changed in the editor
@@ -25,10 +25,16 @@ func set_volume(value: float):
 	if $AudioStreamPlayer2D:
 		$AudioStreamPlayer2D.volume_db = linear_to_db(value)
 
+	
+
 func _input(event):
 	if selected_key != "" and event.is_action_pressed(selected_key):
-		$AudioStreamPlayer2D.play()
-		$AnimatedSprite2D.play(selected_key)
+		if !fade_in:
+			$AudioStreamPlayer2D.play()
+			$AnimatedSprite2D.play(selected_key)
+		elif fade_in:
+			$AudioStreamPlayer2D
+			$AnimatedSprite2D.play(selected_key)
 	elif selected_key != "" and event.is_action_released(selected_key):
 		$AudioStreamPlayer2D.stop()
 		$AnimatedSprite2D.pause()

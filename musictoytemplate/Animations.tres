@@ -40,73 +40,6 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_g7ruw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("2_r2252")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_7v7bp")
-}],
-"loop": true,
-"name": &"C",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("1_j0gh7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("2_o5knd")
-}],
-"loop": true,
-"name": &"D",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("3_j0gh7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("2_1nf4v")
-}, {
-"duration": 1.0,
-"texture": ExtResource("1_2o4t6")
-}],
-"loop": false,
-"name": &"E",
-"speed": 8.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("6_v26fu")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_42158")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_j0w46")
-}],
-"loop": true,
-"name": &"F",
-"speed": 12.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("9_64vgc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_bud83")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_e3qe0")
-}],
-"loop": true,
-"name": &"G",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
 "texture": ExtResource("6_eltwj")
 }, {
 "duration": 1.0,
@@ -119,7 +52,7 @@ animations = [{
 "texture": ExtResource("9_v26fu")
 }],
 "loop": true,
-"name": &"Q",
+"name": &"B",
 "speed": 5.0
 }, {
 "frames": [{
@@ -133,7 +66,32 @@ animations = [{
 "texture": ExtResource("21_pv4on")
 }],
 "loop": true,
-"name": &"R",
+"name": &"C",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_64vgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bud83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_e3qe0")
+}],
+"loop": true,
+"name": &"F",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j0gh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_o5knd")
+}],
+"loop": true,
+"name": &"G",
 "speed": 5.0
 }, {
 "frames": [{
@@ -150,33 +108,8 @@ animations = [{
 "texture": ExtResource("19_2ncqs")
 }],
 "loop": true,
-"name": &"S",
+"name": &"H",
 "speed": 4.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("20_2ncqs")
-}, {
-"duration": 1.0,
-"texture": ExtResource("21_cjpsd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("22_jbypx")
-}],
-"loop": true,
-"name": &"T",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("23_cjpsd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("24_jbypx")
-}],
-"loop": true,
-"name": &"W",
-"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -189,7 +122,46 @@ animations = [{
 "texture": ExtResource("27_eg2pa")
 }],
 "loop": true,
-"name": &"X",
+"name": &"J",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_j0gh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1nf4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_2o4t6")
+}],
+"loop": false,
+"name": &"M",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_cjpsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jbypx")
+}],
+"loop": true,
+"name": &"N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_g7ruw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_r2252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7v7bp")
+}],
+"loop": true,
+"name": &"R",
 "speed": 5.0
 }, {
 "frames": [{
@@ -200,6 +172,34 @@ animations = [{
 "texture": ExtResource("26_vyy5u")
 }],
 "loop": true,
-"name": &"Z",
+"name": &"T",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_v26fu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_42158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_j0w46")
+}],
+"loop": true,
+"name": &"V",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_2ncqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cjpsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jbypx")
+}],
+"loop": true,
+"name": &"Y",
 "speed": 5.0
 }]
