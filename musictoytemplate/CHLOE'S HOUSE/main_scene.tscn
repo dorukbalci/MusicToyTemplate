@@ -63,14 +63,16 @@ animation = &"F"
 position = Vector2(425, 625)
 selected_key = "G"
 audio_file = ExtResource("5_c0dgi")
+volume = 0.416
 
 [node name="AnimatedSprite2D" parent="MusicObjectParent/HorseBrass(G)" index="1"]
 animation = &"G"
 
 [node name="Food(H)" parent="MusicObjectParent" instance=ExtResource("1_6sqrr")]
-position = Vector2(-876, 113)
+position = Vector2(-864, 111)
 selected_key = "H"
 audio_file = ExtResource("9_clej2")
+volume = 2.673
 
 [node name="AnimatedSprite2D" parent="MusicObjectParent/Food(H)" index="1"]
 position = Vector2(1660, 503)
