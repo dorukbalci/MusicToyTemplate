@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://brphpmi4m1udu"]
+
+[ext_resource type="PackedScene" uid="uid://dpo67iqchv824" path="res://music_object.tscn" id="1_3mqji"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="MusicObject" parent="." instance=ExtResource("1_3mqji")]
+position = Vector2(352, 439)
+selected_key = "1"
+
+[node name="MusicObject2" parent="." instance=ExtResource("1_3mqji")]
+position = Vector2(1284, 927)
+selected_key = "2"
+
+[node name="MusicObject3" parent="." instance=ExtResource("1_3mqji")]
+position = Vector2(1728, 407)
+selected_key = "3"

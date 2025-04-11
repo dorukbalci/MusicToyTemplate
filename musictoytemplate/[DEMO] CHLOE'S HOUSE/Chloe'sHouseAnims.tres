@@ -1,0 +1,205 @@
+[gd_resource type="SpriteFrames" load_steps=36 format=3 uid="uid://d3uanw5rjknij"]
+
+[ext_resource type="Texture2D" uid="uid://cm1tew8iskm8p" path="res://[DEMO] CHLOE'S HOUSE/Anims/Mari/Mari_0000_Layer-3.png" id="1_2o4t6"]
+[ext_resource type="Texture2D" uid="uid://brsowwintfwjh" path="res://[DEMO] CHLOE'S HOUSE/Anims/PISSMARIMBA/BIG_PISSER_0000_Layer-32.png" id="1_g7ruw"]
+[ext_resource type="Texture2D" uid="uid://iihkn52tlk8l" path="res://[DEMO] CHLOE'S HOUSE/Anims/Horsebrass/HorseBrass_0000_Layer-5.png" id="1_j0gh7"]
+[ext_resource type="Texture2D" uid="uid://u74isluaho4p" path="res://[DEMO] CHLOE'S HOUSE/Anims/Mari/Mari_0001_Layer-2.png" id="2_1nf4v"]
+[ext_resource type="Texture2D" uid="uid://egfu3tfaetyn" path="res://[DEMO] CHLOE'S HOUSE/Anims/Horsebrass/HorseBrass_0001_Layer-4.png" id="2_o5knd"]
+[ext_resource type="Texture2D" uid="uid://br0hplr0ge28k" path="res://[DEMO] CHLOE'S HOUSE/Anims/PISSMARIMBA/BIG_PISSER_0001_Layer-31.png" id="2_r2252"]
+[ext_resource type="Texture2D" uid="uid://ducy1jv3ypxj8" path="res://[DEMO] CHLOE'S HOUSE/Anims/PISSMARIMBA/BIG_PISSER_0002_Layer-30.png" id="3_7v7bp"]
+[ext_resource type="Texture2D" uid="uid://8b8x0qxmmvht" path="res://[DEMO] CHLOE'S HOUSE/Anims/Mari/Mari_0002_Layer-1.png" id="3_j0gh7"]
+[ext_resource type="Texture2D" uid="uid://b46ege4hgklfm" path="res://[DEMO] CHLOE'S HOUSE/Anims/Candle/Candle_0000_Layer-9.png" id="6_eltwj"]
+[ext_resource type="Texture2D" uid="uid://b52likwdjjugu" path="res://[DEMO] CHLOE'S HOUSE/Anims/NIC/dumbass_0002_Layer-10.png" id="6_v26fu"]
+[ext_resource type="Texture2D" uid="uid://cju3467bx4nip" path="res://[DEMO] CHLOE'S HOUSE/Anims/NIC/dumbass_0001_Layer-11.png" id="7_42158"]
+[ext_resource type="Texture2D" uid="uid://c58j3cuju2yyt" path="res://[DEMO] CHLOE'S HOUSE/Anims/Candle/Candle_0001_Layer-8.png" id="7_lygqs"]
+[ext_resource type="Texture2D" uid="uid://dk76hujdipx0i" path="res://[DEMO] CHLOE'S HOUSE/Anims/NIC/dumbass_0000_Layer-12.png" id="8_j0w46"]
+[ext_resource type="Texture2D" uid="uid://b3xqyipu8ehx5" path="res://[DEMO] CHLOE'S HOUSE/Anims/Candle/Candle_0002_Layer-7.png" id="8_tnb7x"]
+[ext_resource type="Texture2D" uid="uid://i4j5bcqs0prb" path="res://[DEMO] CHLOE'S HOUSE/Anims/Guinness/guinness_0000_Layer-15.png" id="9_64vgc"]
+[ext_resource type="Texture2D" uid="uid://bapwifqp10kku" path="res://[DEMO] CHLOE'S HOUSE/Anims/Candle/Candle_0003_Layer-6.png" id="9_v26fu"]
+[ext_resource type="Texture2D" uid="uid://cqrsvybl4s32a" path="res://[DEMO] CHLOE'S HOUSE/Anims/Guinness/guinness_0001_Layer-14.png" id="10_bud83"]
+[ext_resource type="Texture2D" uid="uid://dtpdnxghqgygk" path="res://[DEMO] CHLOE'S HOUSE/Anims/Guinness/guinness_0002_Layer-13.png" id="11_e3qe0"]
+[ext_resource type="Texture2D" uid="uid://cfea3ypube2vf" path="res://[DEMO] CHLOE'S HOUSE/Anims/Food/fooooood_0000_Layer-19.png" id="16_y23qy"]
+[ext_resource type="Texture2D" uid="uid://lkytgow8hgvr" path="res://[DEMO] CHLOE'S HOUSE/Anims/Food/fooooood_0001_Layer-18.png" id="17_46prf"]
+[ext_resource type="Texture2D" uid="uid://e3vs0gicbldg" path="res://[DEMO] CHLOE'S HOUSE/Anims/Food/fooooood_0002_Layer-17.png" id="18_55kla"]
+[ext_resource type="Texture2D" uid="uid://c1m3difjd7v2v" path="res://[DEMO] CHLOE'S HOUSE/Anims/Food/fooooood_0003_Layer-16.png" id="19_2ncqs"]
+[ext_resource type="Texture2D" uid="uid://crae338kywnrt" path="res://[DEMO] CHLOE'S HOUSE/Anims/BoilerWhistleMouth/blowwww_0000_Layer-35.png" id="19_hrrh3"]
+[ext_resource type="Texture2D" uid="uid://h0n0d0pctqur" path="res://[DEMO] CHLOE'S HOUSE/Anims/Chloe/freelancechlo_0000_Layer-22.png" id="20_2ncqs"]
+[ext_resource type="Texture2D" uid="uid://dwnmyo5akdvap" path="res://[DEMO] CHLOE'S HOUSE/Anims/BoilerWhistleMouth/blowwww_0001_Layer-34.png" id="20_xcckc"]
+[ext_resource type="Texture2D" uid="uid://c263ieje8ec6m" path="res://[DEMO] CHLOE'S HOUSE/Anims/Chloe/freelancechlo_0001_Layer-21.png" id="21_cjpsd"]
+[ext_resource type="Texture2D" uid="uid://dojokctsv3wxx" path="res://[DEMO] CHLOE'S HOUSE/Anims/BoilerWhistleMouth/blowwww_0002_Layer-33.png" id="21_pv4on"]
+[ext_resource type="Texture2D" uid="uid://ba0p60lwso1t6" path="res://[DEMO] CHLOE'S HOUSE/Anims/Chloe/freelancechlo_0002_Layer-20.png" id="22_jbypx"]
+[ext_resource type="Texture2D" uid="uid://byagltume6b7y" path="res://[DEMO] CHLOE'S HOUSE/Anims/Doruk/doruk_0000_Layer-24.png" id="23_cjpsd"]
+[ext_resource type="Texture2D" uid="uid://dq0kto63xtae1" path="res://[DEMO] CHLOE'S HOUSE/Anims/Doruk/doruk_0001_Layer-23.png" id="24_jbypx"]
+[ext_resource type="Texture2D" uid="uid://dc3rmx7u0eho1" path="res://[DEMO] CHLOE'S HOUSE/Anims/MILLIE/milliecat_0000_Layer-26.png" id="25_5i06y"]
+[ext_resource type="Texture2D" uid="uid://b27um3fh0uwrd" path="res://[DEMO] CHLOE'S HOUSE/Anims/LIGHTER/lighter_0000_Layer-29.png" id="25_waefb"]
+[ext_resource type="Texture2D" uid="uid://dr8vgidhae0rd" path="res://[DEMO] CHLOE'S HOUSE/Anims/LIGHTER/lighter_0001_Layer-28.png" id="26_8kq0x"]
+[ext_resource type="Texture2D" uid="uid://b88kqp2ia8e0f" path="res://[DEMO] CHLOE'S HOUSE/Anims/MILLIE/milliecat_0001_Layer-25.png" id="26_vyy5u"]
+[ext_resource type="Texture2D" uid="uid://0l67jrc0rxsl" path="res://[DEMO] CHLOE'S HOUSE/Anims/LIGHTER/lighter_0002_Layer-27.png" id="27_eg2pa"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_eltwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_lygqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tnb7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_v26fu")
+}],
+"loop": true,
+"name": &"B",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_hrrh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_xcckc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_pv4on")
+}],
+"loop": true,
+"name": &"C",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_64vgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bud83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_e3qe0")
+}],
+"loop": true,
+"name": &"F",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j0gh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_o5knd")
+}],
+"loop": true,
+"name": &"G",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_y23qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_46prf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_55kla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2ncqs")
+}],
+"loop": true,
+"name": &"H",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_waefb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_8kq0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_eg2pa")
+}],
+"loop": true,
+"name": &"J",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_j0gh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1nf4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_2o4t6")
+}],
+"loop": false,
+"name": &"M",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_cjpsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jbypx")
+}],
+"loop": true,
+"name": &"N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_g7ruw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_r2252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7v7bp")
+}],
+"loop": true,
+"name": &"R",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_5i06y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vyy5u")
+}],
+"loop": true,
+"name": &"T",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_v26fu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_42158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_j0w46")
+}],
+"loop": true,
+"name": &"V",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_2ncqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cjpsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jbypx")
+}],
+"loop": true,
+"name": &"Y",
+"speed": 5.0
+}]

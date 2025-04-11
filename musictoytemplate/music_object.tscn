@@ -1,14 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://dpo67iqchv824"]
 
 [ext_resource type="Script" uid="uid://yfe58bt0fr8g" path="res://music_object.gd" id="1_gyr00"]
-[ext_resource type="SpriteFrames" uid="uid://d3uanw5rjknij" path="res://Animations.tres" id="2_0awt5"]
+[ext_resource type="SpriteFrames" uid="uid://d05qbpmbdiwwf" path="res://AnimationFrames.tres" id="2_0awt5"]
 
 [node name="MusicObject" type="Node2D"]
 script = ExtResource("1_gyr00")
+selected_key = "1"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 bus = &"Distortion"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = ExtResource("2_0awt5")
-animation = &"Q"
+animation = &"1"

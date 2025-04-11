@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b61ichjtfuwe3"
+path="res://.godot/imported/New bird whistle.wav-32ab13c01b529d786880f3276b78006d.sample"
+
+[deps]
+
+source_file="res://[DEMO] CHLOE'S HOUSE/Sounds/New bird whistle.wav"
+dest_files=["res://.godot/imported/New bird whistle.wav-32ab13c01b529d786880f3276b78006d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
